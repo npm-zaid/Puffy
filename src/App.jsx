@@ -5,7 +5,7 @@ import Spline from '@splinetool/react-spline';
 import Switch from './Switch';  
 
 const App = () => {
-  const [darkTheme, setDarkTheme] = useState(true);
+  const [darkTheme, setDarkTheme] = useState(false);
 
   return (
     <div
